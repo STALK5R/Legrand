@@ -159,7 +159,7 @@ function ValueStrip() {
   const items = [
     ['Free', 'estimates'],
     ['Direct', 'insurance coordination'],
-    [business.founded === '[YEAR FOUNDED]' ? 'Locally' : `Since ${business.founded}`, 'owned & operated'],
+    [`Since ${business.founded}`, 'owned & operated'],
   ]
   return (
     <div className="border-b border-ink-200 bg-white">
