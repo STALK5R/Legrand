@@ -29,7 +29,7 @@ export function About() {
             [Owner photo placeholder]
           </div>
           <div>
-            <SectionHeader title={business.owner.name === '[OWNER NAME]' ? 'Our story' : business.owner.name} />
+            <SectionHeader title={business.owner.name} />
             <p className="mt-4 text-ink-600 leading-relaxed">{business.owner.bio}</p>
             <p className="mt-4 text-sm text-ink-400">{business.owner.title}</p>
           </div>
