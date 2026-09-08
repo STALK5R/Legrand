@@ -14,13 +14,13 @@
 
 export const business = {
   // ---- Identity ------------------------------------------------------------
-  name: '[SHOP NAME]',
-  legalName: '[SHOP NAME] LLC',
-  tagline: '[Short tagline — e.g. "Dent, ding, and hail repair, done right."]',
+  name: 'Mastercraft Collision',
+  legalName: 'Mastercraft Collision LLC',
+  tagline: 'Dents, Dings or Damage, we have you covered from start to finish.',
   shortDescription:
-    '[One or two sentences describing the shop for the footer and SEO meta description. Written from the customer’s point of view — e.g. "We fix door dings, hail damage, and minor collision damage — most of it without ever touching your factory paint."]',
-  founded: '[YEAR FOUNDED]',
-  serviceArea: '[SERVICE AREA — e.g. "Springfield and the surrounding county"]',
+    'We fix door dings, hail damage, and minor collision damage — most of it without ever touching your factory paint.]',
+  founded: '2026',
+  serviceArea: 'Our team is proud to serve you in Southeast Missouri ',
 
   // ---- Contact ---------------------------------------------------------
   phone: {
@@ -84,7 +84,7 @@ export const business = {
     '[Placeholder — describe the shop’s actual warranty here once defined (many PDR/minor-collision shops offer a warranty against a repaired dent reappearing or a paint-match issue). Do not publish a warranty claim until it is confirmed.]',
 
   owner: {
-    name: '[OWNER NAME]',
+    name: 'Jack LeGrand',
     title: '[Owner / General Manager]',
     bio: '[Placeholder — a few sentences of the real owner story: background, why they opened the shop, what they care about.]',
   },
